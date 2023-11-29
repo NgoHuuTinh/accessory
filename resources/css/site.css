@@ -1,0 +1,94 @@
+/* table */
+td > .input-sm {
+    padding: 2px;
+}
+tr.bg-black:hover td { 
+	background-color: #222222 !important;
+}
+/* sort */
+.sort > i {
+    visibility: hidden;
+}
+.sort:hover > i, .sort:focus > i {
+    visibility: visible;
+}
+.sort.active > i {
+    visibility: visible;
+}
+
+.box .item > .message {
+  margin-left: 55px;
+  margin-top: -40px;
+}
+.box .item > .message > .name {
+  display: block;
+  font-weight: 600;
+}
+
+.is-disabled {
+  pointer-events: none;
+}
+
+.bootstrap-tagsinput {
+  height: auto;
+  cursor: pointer;
+}
+
+@charset "utf-8";
+a, a:hover, a:active {
+	color: #444444;
+}
+.left-side {
+	width: 300px;
+}
+.right-side {
+	margin-left: 300px;
+}
+.form-box .header {
+	background: none repeat scroll 0 0 #3c8dbc;
+}
+.btn.btn-primary {
+	background-color: #3c8dbc;
+	border-color: #0f69cf;
+}
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary.hover {
+	background-color: #3c8dbc;
+}
+.skin-blue .logo {
+	background-color: #3c8dbc;
+}
+.skin-blue .logo:hover {
+	background: #3c8dbc;
+}
+.skin-blue .navbar {
+	background-color: #3c8dbc;
+}
+ul.navbar-nav > li.active {
+	background: none repeat scroll 0 0 #0f69cf;
+}
+ul.navbar-nav > li.hover {
+	background: none repeat scroll 0 0 #0f69cf;
+}
+.box.box-primary {
+	border-top-color: #3c8dbc;
+}
+.skin-blue .navbar .dropdown-menu > li > a:active, .skin-blue .navbar .dropdown-menu > li > a:hover {
+	background: none repeat scroll 0 0 #3c8dbc;
+	color: #FFFFFF;
+}
+
+.box .box-header {
+	padding-bottom: 0px;
+}
+.box .box-body {
+	padding-top: 0px;
+}
+
+.box.box-solid.box-primary > .box-header {
+	background: none repeat scroll 0 0 #3c8dbc;
+	color: #FFFFFF;
+}
+
+.pull-right {
+	float: right;
+}
